@@ -1,0 +1,25 @@
+/* Fonts */ 
+ 
+:root { 
+	/* ========== Colors ========== */ 
+	--bg-black-color: #1E212A; 
+	--ui-color: #1E213A; 
+	--text-color-main: #F9BD32; 
+	--text-color-light: #fff; 
+	--text-color-black: #000; 
+	
+	/* ========== Font and Typography  ========== */ 
+	--body-font: "Rubik", sans-serif; 
+	--text-font: "Federo", sans-serif; 
+	--biggest-font-size: 128px; 
+	--h1-font-size: 64px; 
+	--h2-font-size: 50px; 
+	--p-font-size: 24px; 
+	--normal-font-size: 20px; 
+	--small-font-size: 18px; 
+	
+	/* ========== Font Weight  ========== */ 
+	--font-regular: 400; 
+	--font-medium: 500; 
+	--font-bold: 700; 
+ }
