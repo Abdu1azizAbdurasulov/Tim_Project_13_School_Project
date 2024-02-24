@@ -23,3 +23,36 @@
 	--font-medium: 500; 
 	--font-bold: 700; 
  }
+ /* GENERAL CSS */ 
+* { 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+	text-decoration: none; 
+	box-sizing: border-box; 
+ } 
+	
+ html { 
+	scroll-behavior: smooth; 
+ } 
+	
+ body { 
+	font-family: var(--body-font); 
+	background-color: var(--bg-black-color); 
+ } 
+	
+ button, 
+ input { 
+	outline: none; 
+	border: none; 
+ } 
+	
+ .container { 
+	margin: 0 auto; 
+	padding: 0 20px; 
+	max-width: 1480px; 
+ } 
+ /* Hidden Class Element */ 
+ .hidden { 
+	display: none; 
+ }
