@@ -1,0 +1,22 @@
+/* Mobile version 425px */
+@media only screen and (max-width: 425px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* Mobile version 375px */
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* Mobile version 325px */
+
+@media only screen and (max-width: 325px) {
+  body {
+    background-color: red;
+  }
+}
