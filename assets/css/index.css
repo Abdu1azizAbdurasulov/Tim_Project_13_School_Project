@@ -10,7 +10,7 @@
 	
 	/* ========== Font and Typography  ========== */ 
 	--body-font: "Rubik", sans-serif; 
-	--text-font: "Federo", sans-serif; 
+	--text-font: "Federo", sans-serif;
 	--biggest-font-size: 128px; 
 	--h1-font-size: 64px; 
 	--h2-font-size: 50px; 
@@ -106,3 +106,46 @@
 }
 
 /* Header_Navbar Styles */
+.header__nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0px;
+	box-shadow: 5px 2px 60px var(--text-color-main);
+}
+.header__nav-wrapper{
+	display: flex;
+	align-items: center;
+	gap: 100px;
+}
+.nav_menu, .nav_mnu_link{
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	transition: 0.5s;
+	font-family: var(--text-font);
+}
+.nav_mnu_list, .nav_mnu_link:hover{
+	color: var(--text-color-main);
+}
+.contact_us-text{
+	position: relative;
+	top: 5px;
+	padding-left: 30px;
+	font-size: 10px;
+	opacity: 0.55;
+}
+.phone_icon{
+	color: var(--text-color-light);
+	font-size: var(--p-font-size);
+	color: var(--text-color-main);
+}
+.call-to_box{
+	transition: 0.5s;
+}
+.call-to_box:hover{
+	transform: scale(1.08);
+}
+.call_to:hover{
+	color: var(--text-color-main);
+}

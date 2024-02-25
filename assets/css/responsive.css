@@ -1,15 +1,35 @@
+/* Tablet version 768px */
+@media only screen and (max-width: 768px) {
+  .logo{
+    width: 100px;
+    padding-left: 40px;
+  }
+  .nav_mnu_list, .nav_mnu_link{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .contact_us{
+    display: none;
+  }
+  .nav_menu{
+    margin-right: 100px;
+  }
+}
+
+
 /* Mobile version 425px */
 @media only screen and (max-width: 425px) {
-  body {
-    background-color: lightblue;
+  .logo{
+    width: 100px;
   }
+  
 }
 
 /* Mobile version 375px */
 
 @media only screen and (max-width: 375px) {
   body {
-    background-color: blue;
+    /* background-color: blue; */
   }
 }
 
@@ -17,6 +37,6 @@
 
 @media only screen and (max-width: 325px) {
   body {
-    background-color: red;
+    /* background-color: red; */
   }
 }
