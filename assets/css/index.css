@@ -108,16 +108,20 @@
 /* Header_Navbar Styles */
 
 .header__nav{
+	width: 1440px;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	padding-top: 20px;
 	box-shadow: 5px 10px 60px #FFE500;
+}
+.header__nav-wrapper{
+	width: 1440px;
 }
 
 .header__nav-menu{
 	display: flex;
 	align-items: center;
-	padding-left: 200px;
 	gap: 40px;
 }
 
@@ -128,7 +132,7 @@
 .contact_us{
 	display: flex;
 	gap: 10px;
-	padding-left: 150px;
+	/* padding-left: 150px; */
 }
 
 .call_us{
