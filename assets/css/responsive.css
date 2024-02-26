@@ -118,15 +118,15 @@
 /* Mobile version 375px */
 
 @media only screen and (max-width: 375px) {
-  body {
-    /* background-color: blue; */
-  }
+  /* body {
+     background-color: blue;
+  }  */
 }
 
 /* Mobile version 325px */
 
 @media only screen and (max-width: 325px) {
-  body {
-    /* background-color: red; */
-  }
+  /* body {
+    background-color: red;
+  } */
 }
