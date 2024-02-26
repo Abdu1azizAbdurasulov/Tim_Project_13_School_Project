@@ -1,26 +1,116 @@
-/* Tablet version 768px */
-@media only screen and (max-width: 768px) {
+/* Laptop version 1024px */
+@media only screen and (max-width: 1024px) {
+  .header__nav-wrapper{
+    width: 1024px;
+  }
+  .header__nav{
+    width: 1024px;
+  }
   .logo{
-    width: 100px;
+    width: 110px;
     padding-left: 40px;
   }
   .nav_mnu_list, .nav_mnu_link{
-    font-size: 10px;
-    margin-left: 10px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 13px;
+    position: relative;
+    right: 10px;
   }
   .contact_us{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 130px;
+    font-size: 10px;
+  }
+  .contact_us-text{
     display: none;
+  }
+  .phone_icon{
+    position: relative;
+    font-size: 20px;
+  }
+  .call_to{
+    font-size: 13px;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+  }
+  .call-to_box{
+    width: 150px;
   }
   .nav_menu{
     margin-right: 100px;
   }
 }
 
+/* Tablet version 768px */
+@media only screen and (max-width: 768px) {
+  .header__nav-wrapper{
+    width: 768px;
+    height: 50px;
+  }
+  .header__nav{
+    width: 768px;
+}
+  .logo{
+    width: 110px;
+    height: 110px;
+    margin-right: 80px;
+    margin-left: -20px;
+  }
+  .nav_mnu_list, .nav_mnu_link{
+    text-align: center;
+    font-size: 11px;
+    position: relative;
+    right: 50px;
+  }
+  .contact_us{
+    display: none;
+  }
+}
 
 /* Mobile version 425px */
 @media only screen and (max-width: 425px) {
+  .header__nav-wrapper{
+    width: 425px;
+    height: 30px;
+  }
+  .header__nav{
+    width: 425px;
+    height: 50px;
+  }
   .logo{
+    width: 70px;
+    width: 70px;
+  }
+  .nav_mnu_list, .nav_mnu_link{
+    display: none;
+  }
+  .hamburger__wrap, .hamburger-lines{
+    width: 18px;
+    height: 13px;
+    margin-left: 330px;
+  }
+  .hamburger-lines .line{
+    display: block;
+    height: 2px;
+    width: 100%;
+  }
+  .nav_menu{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /* background: var(--text-color-main); */
+    padding: 100px 20px 20px 20px;
+  }
+  .nav_mnu_list, .nav_mnu_link{
+    display: block;
+    padding-bottom: 20px;
     width: 100px;
+    font-size: 8px;
   }
   
 }
