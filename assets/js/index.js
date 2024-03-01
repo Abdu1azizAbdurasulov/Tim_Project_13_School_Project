@@ -1,7 +1,13 @@
 const hamburgerBtn = document.querySelector(".hamburger__wrap"),
- 	hamburgerMenu = document.querySelector(".nav_menu");
+ 	hamburgerMenu = document.querySelector(".nav_wrapper"),
+	closeBtn = document.querySelector(".x_mark"),
+	show = document.querySelector(".show"),
+	hide = document.querySelector(".hidden");
 
 hamburgerBtn.addEventListener("click", () =>{
-	hamburgerMenu.classList.toggle("show");
+	
+});
+closeBtn.addEventListener("click", () =>{
+	
 });
 
