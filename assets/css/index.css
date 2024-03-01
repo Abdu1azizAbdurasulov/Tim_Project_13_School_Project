@@ -61,7 +61,7 @@
 	padding: 0 20px; 
 	max-width: 1480px;
  } 
- /* Hidden and Show Class Element */ 
+ /* Hidden and Show Element */ 
 
  .hidden { 
 	display: none; 
@@ -73,8 +73,11 @@
 
  /* Hamburger Element */
 
+ .hamburger__wrap{
+	display: none;
+ }
+
 .hamburger-lines {
-  display: block;
   height: 26px;
   width: 32px;
   position: absolute;
@@ -88,7 +91,6 @@
 }
 
 .hamburger-lines .line {
-  display: none;
   height: 4px;
   width: 100%;
   border-radius: 10px;
