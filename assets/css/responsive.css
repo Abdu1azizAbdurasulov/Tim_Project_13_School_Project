@@ -82,8 +82,8 @@
     height: 50px;
   }
   .logo{
-    width: 70px;
-    width: 70px;
+    width: 85px;
+    width: 85px;
   }
   .nav_mnu_list, .nav_mnu_link{
     display: none;
@@ -98,12 +98,14 @@
     height: 2px;
     width: 100%;
   }
-  .nav_menu{
+  .nav_wrapper{
     display: none;
+  }
+  .nav_menu{
     position: absolute;
-    left: 50%;
+    display: block;
+    left: 220px;
     top: 0px;
-    /* background: var(--text-color-main); */
     padding: 100px 20px 20px 20px;
   }
   .nav_mnu_list, .nav_mnu_link{
@@ -111,6 +113,13 @@
     padding-bottom: 20px;
     width: 100px;
     font-size: 8px;
+  }
+  .x_mark{
+    display: none;
+    position: fixed;
+    left: 350px;
+    color: var(--text-color-main);
+    font-size: 20px;
   }
   
 }
