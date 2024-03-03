@@ -71,7 +71,7 @@
 	display: block;
 }
 
- /* Hamburger Element */
+ /* Hamburger and Close button Element */
 
  .hamburger__wrap{
 	display: none;
@@ -157,4 +157,7 @@
 }
 .call_to:hover{
 	color: var(--text-color-main);
+}
+.x_mark{
+	display: none;
 }
