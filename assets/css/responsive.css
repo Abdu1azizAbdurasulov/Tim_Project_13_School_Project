@@ -89,21 +89,23 @@
     display: none;
   }
   .hamburger__wrap, .hamburger-lines{
-    width: 18px;
+    display: block;
+    width: 20px;
     height: 13px;
     margin-left: 330px;
   }
   .hamburger-lines .line{
     display: block;
-    height: 2px;
+    height: 3px;
+    margin-bottom: 4px;
     width: 100%;
   }
-  .nav_wrapper{
+  /* .nav_wrapper{
     display: none;
-  }
+  } */
   .nav_menu{
     position: absolute;
-    display: block;
+    display: none;
     left: 220px;
     top: 0px;
     padding: 100px 20px 20px 20px;
@@ -120,22 +122,5 @@
     left: 350px;
     color: var(--text-color-main);
     font-size: 20px;
-  }
-  
-}
-
-/* Mobile version 375px */
-
-@media only screen and (max-width: 375px) {
-  /* body {
-     background-color: blue;
-  }  */
-}
-
-/* Mobile version 325px */
-
-@media only screen and (max-width: 325px) {
-  /* body {
-    background-color: red;
-  } */
-}
+  } 
+};
